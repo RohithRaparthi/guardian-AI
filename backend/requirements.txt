@@ -1,0 +1,13 @@
+# Backend requirements
+fastapi
+uvicorn
+sqlalchemy
+pydantic
+pydantic-settings
+python-dotenv
+python-multipart
+jose
+passlib
+bcrypt
+opencv-python
+mediapipe

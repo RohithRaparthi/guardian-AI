@@ -1,0 +1,7 @@
+from app.database.base import Base
+from app.database.session import engine
+from app.models import guardian, fall_event
+
+
+def init_db():
+    Base.metadata.create_all(bind=engine)

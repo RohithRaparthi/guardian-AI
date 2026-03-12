@@ -1,0 +1,40 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+  background: #111;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar select {
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+}
+
+.status-box {
+  background: #222;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.monitoring-area {
+  flex: 1;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.monitoring-area img {
+  width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
